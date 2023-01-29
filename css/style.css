@@ -1,0 +1,75 @@
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.conteiner__hero{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+.conteiner__content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.content__titule{
+    width: 80%;
+    color: white;
+    text-align: end;
+    font-size: 40px;
+}
+.content__text{
+    width: 80%;
+    margin-top: 15px;
+    color: white;
+    text-align: end;
+    text-transform: capitalize;
+}
+.content__btn{
+    width: 80%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: end;
+}
+.conteiner__heroImg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/money_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cover{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.703);
+}
+@media(max-width:425px){
+    .conteiner__content{
+        width: 100%;
+    }
+    .content__titule{
+        text-align: center;
+    }
+    .content__text{
+        text-align: center;
+    }
+    .content__btn{
+        justify-content: center;
+    }
+}
+
+
+
