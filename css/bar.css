@@ -16,6 +16,14 @@
     position: absolute;
     z-index: 2;
 }
+.bar2{
+    width: 100vw;
+    height: 90px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .bar-logo{
     width: 70px;
     height: 70px;
@@ -23,21 +31,20 @@
     display: flex;
     flex-direction: column;
 }
-.bar-logo img{
+.bar-logo img{}
 
-}
 .bar-menu{
     display: flex;
     align-items: center;
     margin-right: 30px;
 }
 .conteiner-menu-items a{
-    color: white;
+    color: black;
     text-decoration: none;
     margin: 0 15px;
 }
 .conteiner-menu-items a:hover{
-    border-bottom: white solid 1px;
+    border-bottom: black solid 2px;
 }
 
 /*===================== VARIABLES ======================*/

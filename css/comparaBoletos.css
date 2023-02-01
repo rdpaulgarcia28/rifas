@@ -1,0 +1,181 @@
+body{
+  background-image: url(../assets/img/money_5.jpg);
+  background-size: cover;
+}
+.precio{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.precio h1{
+    margin-bottom: 30px;
+}
+.precioBox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+}
+.precioBox_left{
+    width: 35%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.precio span{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.precio :nth-child(3){
+    margin-bottom: 30px;
+}
+.precioBox_left_img{
+    width: 90%;
+    height: 100%;
+    background-image: url(../assets/img/img1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.precioBox_right{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.precioBox_right__card {
+    width: 330px;
+    height: 350px;
+    background: #f8f9fa;
+    position: relative;
+    box-shadow: 15px 15px 50px #adb5bd75;
+    text-align: center;
+    transition: all 0.3s ease-in;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .precioBox_right__card:hover{
+    background-color: #ffc600;
+  }
+  .precioBox_right__card h3{
+    font-size: x-large;
+  }
+  .precioBox_right__card img {
+    width: 150px;
+    height: 150px;
+  }
+  .precioBox_right__card p {
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  @media(max-width:425px){
+    .precioBox_left{
+      display: none;
+    }
+  }
+
+  /********************************************/
+
+  .numSuerte{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom:100px ;
+  }
+  .numSuerte h2{
+    width: 80%;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .numSuerteForm{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: white;
+  }
+  .numSuerteFormBox{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  .numSuerteFormBox__info{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .numSuerteFormBox__creaNum{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .insetarNumBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .insetarNumBox__input{
+    margin: 10px;
+  }
+  .insetarNumBox__div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .creaNumBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .creaNumBox__input{
+    margin: 10px;
+  }
+  .creaNumBox__div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .creaNumBox__div div{
+    margin: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .button--width{
+    width: 48%;
+  }
+  .numSuerteFormBox__info .input{
+    margin: 10px;
+  }
+  .numSuerte .formBtn{
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid lightgrey;
+  }
+  .numSuerte .formBtn:hover{
+    background-color: #ffc600;
+  }
+  .enviar{
+    width: 60%;
+  }

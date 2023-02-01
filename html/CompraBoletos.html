@@ -7,8 +7,166 @@
     <title>Compra De Boletos</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/bar.css">
+    <link rel="stylesheet" href="../css/comparaBoletos.css">
+    <link rel="stylesheet" href="../css/inputs.css">
+
 </head>
 <body>
-    
+    <header>
+        <menu class="bar2" id="inicio">
+            <div class="bar-logo">
+                <img src="" alt="">
+            </div>
+            <div class="bar-menu">
+                <nav class="conteiner-menu-items">
+                    <a href="../index.html">Inicio</a>
+                    <a href="../index.html">Preguntas Frecuentes</a>
+                    <a href="../index.html">Nosotros</a>
+                    <a href="../index.html">Contacto</a>
+                </nav>
+            </div>
+            <!-- BOTON DE HAMBURGUESA -->
+            <div class="panel-btn" id="btn-hamburger" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner-1"></span>
+                    <span class="hamburger-inner-2"></span>
+                    <span class="hamburger-inner-3"></span>
+                </span>
+            </div>
+            <aside class="panel" id="panel">
+                <nav class="menu">
+                    <a href="../index.html"id="btn-panel-1">Inicio</a>
+                    <a href="../index.html"id="btn-panel-2">Preguntas Frecuentes</a>
+                    <a href="../index.html"id="btn-panel-3">Nosotros</a>
+                    <a href="../index.html"id="btn-panel-4">Contacto</a>
+                </nav>
+            </aside>
+        </menu>
+    </header>
+    <main>
+        <section class="precio">
+            <h1>Compra De Boletos</h1>
+            <span>$400,000 mxn</span>
+            <span>28 de febrero 2023</span>
+            <div class="precioBox">
+                <div class="precioBox_left">
+                    <div class="precioBox_left_img"></div>
+                </div>
+                <div class="precioBox_right">
+                    <div class="precioBox_right__card">
+                        <h3>Precio De los boletos</h3>
+                        <p>1 BOLETO POR $65 <br>
+                            5 BOLETOS POR $300 <br>
+                            10 BOLETOS POR $600 <br>
+                            50 BOLETOS POR $3,000 <br>
+                            100 BOLETOS POR $5,500
+                        </p>
+                    </div>
+                    <div class="precioBox_right__card">
+                        <h3>Con tu boleto liquidado participas por:</h3>
+                        <p>28 FEBRERO: <br><br> 
+                            1ro. $400,000 MXN <br>
+                            2do. $25,000 MXN <br>
+                            3ro. $25,000 MXN 
+                        </p>
+                    </div>
+                    <div class="precioBox_right__card">
+                        <h3>BONOS:</h3>
+                        <p>SI COMPRAS 10 BOLETOS O MÁS
+                            Y PAGAS EN LAS PRIMERAS 12 HRS
+                            DE APARTADO Y GANAS EL 1ER
+                            LUGAR, TE LLEVAS BONO DE:
+                            $15,000 MXN
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="numSuerte">
+            <h2>Elige tu numero de la suerte o crealo tu mismo</h2>
+            <form action="../php/buscaNum.php" method="get" class="numSuerteForm sombra">
+                <div class="numSuerteFormBox">
+                    <div class="numSuerteFormBox__info">
+                        <input type="tel" class="input" name="" id="whatsapp" placeholder="Whatapp">
+                        <input type="text" class="input" name="" id="nombre" placeholder="Nombre">
+                        <input type="text" class="input" name="" id="apellido" placeholder="Apellido">
+                        <select id="cars" class="input">
+                            <option value="" selected></option>
+                            <option value="Aguascalientes">Aguascalientes</option>
+                            <option value="Baja California">Baja California</option>
+                            <option value="Baja California Sur">Baja California Sur</option>
+                            <option value="Campeche">Campeche</option>
+                            <option value="Coahuila">Coahuila</option>
+                            <option value="Colima">Colima</option>
+                            <option value="Chiapas">Chiapas</option>
+                            <option value="Chihuahua">Chihuahua</option>
+                            <option value="Ciudad de México">Ciudad de México</option>
+                            <option value="Durango">Durango</option>
+                            <option value="Guanajuato">Guanajuato</option>
+                            <option value="Guerrero">Guerrero</option>
+                            <option value="Hidalgo">Hidalgo</option>
+                            <option value="Jalisco">Jalisco</option>
+                            <option value="Michoacán">Michoacán</option>
+                            <option value="Morelos">Morelos</option>
+                            <option value="Nayarit">Nayarit</option>
+                            <option value="Nuevo León">Nuevo León</option>
+                            <option value="Oaxaca">Oaxaca</option>
+                            <option value="Puebla">Puebla</option>
+                            <option value="Querétaro">Querétaro</option>
+                            <option value="Quintana Roo">Quintana Roo</option>
+                            <option value="San Luis Potosí">San Luis Potosí</option>
+                            <option value="Sinaloa">Sinaloa</option>
+                            <option value="Sonora">Sonora</option>
+                            <option value="Tabasco">Tabasco</option>
+                            <option value="Tamaulipas">Tamaulipas</option>
+                            <option value="Tlaxcala">Tlaxcala</option>
+                            <option value="Veracruz">Veracruz</option>
+                            <option value="Yucatán">Yucatán</option>
+                            <option value="Zacatecas">Zacatecas</option>
+                          </select>
+                          <input type="datetime" class="input" name="" id="">
+                    </div>
+                    <div class="numSuerteFormBox__creaNum">
+                        <div class="insetarNumBox">
+                            <div class="insetarNumBox__div">
+                                <label for="">Inserta tu numero de la suerte:</label>
+                                <input type="text" name="" id="" class="input">
+                                <input type="button" class="formBtn" value="Aceptar">
+                            </div>
+                        </div>
+                        <div class="creaNumBox">
+                            <div class="creaNumBox__div">
+                                <label for="">Crea tus numero de la suerte</label>
+                                <label for="">cantidad de numeros</label>
+                                <select name="" id="" class="input">
+                                    <option value=""></option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="10">10</option>
+                                    <option value="20">20</option>
+                                    <option value="30">30</option>
+                                    <option value="50">50</option>
+                                    <option value="100">100</option>
+                                </select>
+                                <div>
+                                    <input type="button" class="formBtn button--width" value="crear">
+                                    <input type="button" class="formBtn button--width" value="Borrar">
+                                </div>
+                                <label for=""></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <label for=""></label>
+                </div>
+                <input type="submit" class="formBtn enviar" value="Enviar">
+            </form>
+        </section>
+    </main>
 </body>
 </html>
